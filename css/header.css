@@ -1,7 +1,41 @@
+header{
+  background-color: black;
+  height: 50px;
+}
+
 #title-name{
+  color: white;
+  font-size: 25px;
+  padding-top: 12px;
   display: inline-block;
 }
 
 .nav-bar{
-  text-align: right;
+  color: white;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+}
+
+.nav-bar a{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.nav-bar a:link{
+  color: white;
+}
+
+.nav-bar a:visited{
+  color: white;
+}
+
+.nav-bar a:hover{
+  color: lightgray;
+}
+
+@media screen and (max-width: 388px){
+  #title-name{
+    color: black;
+  }
 }
