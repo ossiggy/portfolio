@@ -40,43 +40,43 @@ li{
   padding: 5px;
 }
 
-.html{
+#html{
   color: #F1662A;
   border: 5px solid #F1662A;
 }
 
-.css{
+#css{
   color: #33A9DC;
   border: 5px solid #33A9DC;
 }
 
-.js{
+#js{
   color: #FFDA3E;
   border: 5px solid #FFDA3E;
 }
 
-.jquery{
+#jquery{
   color: #1169AE;
   border: 5px solid #1169AE;
 }
 
-.react{
+#react{
   color: #61DAFB;
   border: 5px solid #61DAFB;
 }
 
-.node{
+#node{
   color: #539E43;
   border: 5px solid #539E43
 }
 
-#jquery{
+#jquery-img{
   height: 50px;
   vertical-align: bottom;
 }
 
 .jquery-tech{
-  height: 32px;
+  height: 50px;
 }
 
 
@@ -90,7 +90,7 @@ li{
 
 #bio h3{
   font-size: 28px;
-  margin-top: 35px;
+  margin-top: 45px;
 }
 
 #bio p{
@@ -123,4 +123,49 @@ li{
 #portfolio div{
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+#portfolio h2{
+  font-size: 34px;
+}
+
+#weather-shot{
+  width: 100%
+}
+
+.html{
+  color: #F1662A;
+}
+
+.css{
+  color: #33A9DC;
+}
+
+.js{
+  color: #FFDA3E;
+}
+
+.jquery{
+  color: #1169AE;
+  height: 50px;
+}
+
+.react{
+  color: #61DAFB;
+}
+
+.node{
+  color: #539E43;
+}
+
+.tech-container li{
+  display: inline-block;
+  height: 60px;
+  vertical-align: bottom;
+}
+
+.tech-container li a{
+  display: inline-block;
+  color: black;
+  margin-top: 5px;
 }
