@@ -171,6 +171,7 @@ li{
 }
 
 .tech-container{
+  padding-top:10px !important;
   text-align: center;
 }
 
@@ -191,7 +192,12 @@ li{
   color: #6D6D6D;
 }
 
+#daily-learner{
+  padding-bottom: 0 !important;
+}
+
 address{
+  margin-top: 20px;
   color: white;
   background-color: black;
   font-style: normal;
