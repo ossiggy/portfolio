@@ -18,8 +18,9 @@
       <nav class="nav-bar col-6">
         <a href="#bio">Bio</a>
         <a href="#portfolio">Portfolio</a>
-        <a target="_blank" href="https://github.com/ossiggy"><i class="fab fa-github fa-3x"></i></a>
-        <a target="_blank" href="https://linkedin.com/in/michael-ossig"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="#contact">Contact</a>
+        <a target="_blank" href="https://github.com/ossiggy"><i class="fab fa-github fa-2x"></i></a>
+        <a target="_blank" href="https://linkedin.com/in/michael-ossig"><i class="fab fa-linkedin fa-2x"></i></a>
       </nav>
     </header>
 
@@ -33,6 +34,7 @@
         <li><i class="fab fa-js-square fa-2x"></i>JavaScript</li>
         <li> <img id="jquery" src="http://pluspng.com/img-png/jquery-logo-png-jquery-320.png" alt="jquery"> jQuery</li>
         <li><i class="fab fa-react fa-2x"></i>React.js/Redux</li>
+        <li><i class="fab fa-node-js fa-2x"></i>Node.js</li>
       </ul>
     </section>
 
@@ -47,8 +49,65 @@
     </section>
 
     <section id="portfolio" class="col-8 offset-2">
-      
+      <h1>Portfolio</h1>
+
+      <div id="weather-reactor">
+        <h2>Weather Reactor</h2>
+        <p>A simple API hack that gives you weather data of your city found by zip code. 
+          I built the front end for this site using a free weather map API I found online.</p>
+        <div class="tech-container">
+          <ul>
+            <li><i class="fab fa-html5 fa-2x"></i></li>
+            <li><i class="fab fa-css3 fa-2x"></i></li>
+            <li><img class="jquery-tech" src="http://pluspng.com/img-png/jquery-logo-png-jquery-320.png" alt="jquery"></li>
+            <a href="https://ossiggy.github.io/weather-reactor/">Live Link</a>
+            <a href="https://github.com/ossiggy/weather-reactor">Repo</a>
+          </ul>
+        </div>
+      </div>
+
+      <div id="budge-my-life">
+        <h2>Budge My Life</h2>
+        <p>A bare-bones budgeting app that lets a user see where their money is going.
+          The main focus of this project was building the server and structuring my own API using MongoDB/Mongoose.
+          It is tested using Mocha/Chai and ran through TravisCI before deploy.
+        </p>
+        <div class="tech-container">
+            <ul>
+              <li><i class="fab fa-html5 fa-2x"></i></li>
+              <li><i class="fab fa-css3 fa-2x"></i></li>
+              <li><img class="jquery-tech" src="http://pluspng.com/img-png/jquery-logo-png-jquery-320.png" alt="jquery"></li>
+              <li><i class="fab fa-node-js fa-2x"></i></li>
+              <li></li>
+              <a href="https://budge-my-life.herokuapp.com">Live Link</a>
+              <a href="https://github.com/ossiggy/budge-my-life">Repo</a>
+            </ul>
+          </div>
+      </div>
+
+      <div id="daily-learner">
+        <h2>Daily Learner</h2>
+        <p>This app helps people track the lessons they learn on a day to day basis by making it accessible anywhere, anytime.
+          My first project using React, I opted to also use Redux. I also built the server and structured the API. It is tested using Enzyme
+          for the front end and Mocha/Chai for the backend, both run through TravisCI before delpoyment.
+        </p>
+      </div>
+      <div class="tech-container">
+          <ul>
+            <li><i class="fab fa-react fa-2x"></i></li>
+            <li><i class="fab fa-css3 fa-2x"></i></li>
+            <li><i class="fab fa-node-js fa-2x"></i></li>
+            <li></li>
+            <a href="https://budge-my-life.herokuapp.com">Live Link</a>
+            <a href="https://github.com/ossiggy/budge-my-life">Repo</a>
+          </ul>
+        </div>
     </section>
+
+    <address id="contact" class="col-12">
+      <h3>I would love to hear from you!</h3>
+      <h4><a href="mailto:mrossig201@gmail.com">mrossig201@gmail.com</a></h4>
+    </address>
     
   </body>
 </html>
