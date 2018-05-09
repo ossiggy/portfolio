@@ -206,3 +206,7 @@ address{
 address a{
   color: white;
 }
+
+address a:hover{
+  color: lightgray;
+}
