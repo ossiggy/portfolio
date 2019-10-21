@@ -1,5 +1,5 @@
 header{
-  background-color: black;
+  background-color: rgb(68, 68, 68);
   height: 50px;
   position: fixed;
 }
@@ -16,11 +16,37 @@ header{
   position: absolute;
   right: 5px;
   top: 15px;
+  padding-right: 10px;
 }
 
 .nav-bar a{
   font-size: 20px;
   padding: 5px;
+}
+
+.social-link{
+  color: white;
+  font-size: 20px;
+}
+
+#bio-link:hover{
+  color: lightblue;
+}
+
+#portfolio-link:hover{
+  color: lightgreen;
+}
+
+#contact-link:hover{
+  color: lightsalmon;
+}
+
+#github-link:hover{
+  color: lightslategray;
+}
+
+#linkedin-link:hover{
+  color: lightseagreen;
 }
 
 .nav-bar a:link{
@@ -37,6 +63,6 @@ header{
 
 @media screen and (max-width: 388px){
   #title-name{
-    color: black;
+    display: none;
   }
 }

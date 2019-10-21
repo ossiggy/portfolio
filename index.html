@@ -18,11 +18,11 @@
     <header class="col-12">
       <h1 id="title-name" class="col-6">Mike O</h1>
       <nav class="nav-bar">
-        <a href="#bio">Bio</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a style="font-size: 20px; color:white" target="_blank" href="https://github.com/ossiggy"><i class="fab fa-github"></i></a>
-        <a style="font-size: 20px; color:white" target="_blank" href="https://linkedin.com/in/michael-ossig"><i class="fab fa-linkedin"></i></a>
+        <a href="#bio" id="bio-link">Bio</a>
+        <a href="#portfolio" id="portfolio-link">Portfolio</a>
+        <a href="#contact" id="contact-link">Contact</a>
+        <a href="https://github.com/ossiggy" id="github-link" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/michael-ossig" id="linkedin-link" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
       </nav>
     </header>
 
@@ -46,52 +46,29 @@
       <p>Born and raised in Bergen County, New Jersey, I attended Quinnipiac University and graduated
         in 2012.  Unsatisfied with my career choice, I tried a free coding course online and fell in love.
         I decided to get serious about my new passion and enrolled in <a target="_blank" href="https://thinkful.com">Thinkful's</a>
-        full-stack web development mentorship program. I am now a very capable, teachable developer who remains eager
-        to learn and grow.
-      </p>
+        full-stack web development mentorship program. I was hired on by Kustomer Inc. where my development skills were further honed.
+        I am not searching for a job as a Junior Front End Engineer.
     </section>
 
     <section id="portfolio" class="col-8 offset-2">
       <h1>Portfolio</h1>
 
-      <div class="col-12" id="weather-reactor">
-        <h2>Weather Reactor</h2>
+      <div class="col-12" id="health-inspector">
+        <h2>Personal Health Inspector</h2>
         <div class="asset-container col-12">
-          <img id="weather-shot" src="assets/weatherreactor.png" alt="weather">
+          <img id="health-shot" src="assets/phi.JPG" alt="health">
+          <img id="health-shot-2" src="assets/phi2.JPG" alt="health">
         </div>
-        <p>A simple API hack that gives you weather data of your city found by zip code. 
-          I built the front end for this site using a free weather map API.</p>
+        <p>A simple API hack that gives you health inspection data of restaurants in NYC by supplying the name and zip code.</p>
         <div class="tech-container col-12">
-          <p class="html" style="font-size: 25px"><i class="fab fa-html5 fa-2x"></i></p>
+          <p class="react" style="font-size: 25px"><i class="fab fa-react fa-2x"></i></p>
           <p class="css" style="font-size: 25px"><i class="fab fa-css3 fa-2x"></i></p>
-          <p><img class="jquery" style="vertical-align: bottom" src="assets/jquery-logo-png-jquery-320.png" alt="jquery"></p>
-        </div>
-        <span class="link-container col-12">
-            <a target="_blank" href="https://ossiggy.github.io/weather-reactor/">Link</a>
-            <a target="_blank" href="https://github.com/ossiggy/weather-reactor">Repo</a>
-        </span>
-      </div>
-
-      <div class="col-12" id="budge-my-life">
-        <h2>Budge My Life</h2>
-        <div class="asset-container col-12">
-          <img src="assets/budge-my-life/budge-my-life-landing.png" alt="landing">
-          <img src="assets/budge-my-life/budge-my-life-budget.png" alt="budget">
-        </div>
-        <p>A bare-bones budgeting app that lets a user see where their money is going.
-          The main focus of this project was building the server and structuring my own API using MongoDB/Mongoose.
-          It is tested using Mocha/Chai and ran through TravisCI before deployment.
-        </p>
-        <div class="tech-container col-12">
-            <p class="html" style="font-size: 25px"><i class="fab fa-html5 fa-2x"></i></p>
-            <p class="css" style="font-size: 25px"><i class="fab fa-css3 fa-2x"></i></p>
-            <p class="node" style="font-size: 25px"><i class="fab fa-node-js fa-2x"></i><p>
-            <p><img class="jquery" style="vertical-align: bottom" src="assets/jquery-logo-png-jquery-320.png" alt="jquery"></p>   
+          <p class="node" style="font-size: 25px"><i class="fab fa-node-js fa-2x"></i><p>
           </div>
-          <span class="link-container col-12">
-            <a target="_blank" href="https://budge-my-life.herokuapp.com">Link</a>
-            <a target="_blank" href="https://github.com/ossiggy/budge-my-life">Repo</a>
-          </span>
+        <span class="link-container col-12">
+            <a target="_blank" href="https://personal-health-inspector.netlify.com/">Link</a>
+            <a target="_blank" href="https://github.com/ossiggy/personal-health-inspector">Repo</a>
+        </span>
       </div>
 
       <div class="col-12" id="daily-learner">
@@ -116,6 +93,29 @@
         <a target="_blank" href="https://github.com/ossiggy/daily-learner-client">Client Repo</a>
         <a target="_blank" href="https://github.com/ossiggy/daily-learner-server">Server Repo</a>
       </span>
+
+      <div class="col-12" id="budge-my-life">
+        <h2>Budge My Life</h2>
+        <div class="asset-container col-12">
+          <img src="assets/budge-my-life/budge-my-life-landing.png" alt="landing">
+          <img src="assets/budge-my-life/budge-my-life-budget.png" alt="budget">
+        </div>
+        <p>A bare-bones budgeting app that lets a user see where their money is going.
+          The main focus of this project was building the server and structuring my own API using MongoDB/Mongoose.
+          It is tested using Mocha/Chai and ran through TravisCI before deployment.
+        </p>
+        <div class="tech-container col-12">
+            <p class="html" style="font-size: 25px"><i class="fab fa-html5 fa-2x"></i></p>
+            <p class="css" style="font-size: 25px"><i class="fab fa-css3 fa-2x"></i></p>
+            <p class="node" style="font-size: 25px"><i class="fab fa-node-js fa-2x"></i><p>
+            <p><img class="jquery" style="vertical-align: bottom" src="assets/jquery-logo-png-jquery-320.png" alt="jquery"></p>   
+          </div>
+          <span class="link-container col-12">
+            <a target="_blank" href="https://budge-my-life.herokuapp.com">Link</a>
+            <a target="_blank" href="https://github.com/ossiggy/budge-my-life">Repo</a>
+          </span>
+        </div>
+
     </section>
 
     <address id="contact" class="col-12">
